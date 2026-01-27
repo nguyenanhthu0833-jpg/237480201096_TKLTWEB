@@ -1,0 +1,19 @@
+h1 {
+    color:brown;
+}
+h2 {
+    color: blue;
+}
+h3{
+    color: chartreuse;
+}
+.dong4 {
+    font-family: " Time New Roman";
+    font-size: 14px;
+    font-weight: bold;
+    background-color: gold;
+}
+.dong5 {
+    font-family: "Time New Roman";
+    font-size: 12px;
+}
