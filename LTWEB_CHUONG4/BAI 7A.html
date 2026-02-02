@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var D = new Date();
+var NamHienTai = D.getFullYear();
+var NamSinh;
+
+do{
+    NamSinh = prompt("Nhập năm sinh:");
+}while(parseInt(NamSinh) > NamHienTai);
+
+alert("Tuổi của bạn là: " + (NamHienTai - NamSinh));
+</script>
+</body>
+</html>

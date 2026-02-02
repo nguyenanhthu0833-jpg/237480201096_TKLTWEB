@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var tb = [];
+var n = prompt("Nhập số thiết bị:");
+
+for(var i=0;i<n;i++){
+    tb[i] = prompt("Nhập tên thiết bị:");
+}
+
+document.write("<table border='1'><tr><th>Thiết bị</th></tr>");
+for(var i=0;i<tb.length;i++){
+    if(tb[i].toLowerCase() == "computer"){
+        document.write("<tr><td>"+tb[i]+"</td></tr>");
+    }
+}
+document.write("</table>");
+</script>
+</body>
+</html>
